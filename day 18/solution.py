@@ -31,6 +31,7 @@ def pretty(matrix):
 def parse(in_str: str) -> List[List[str]]:
     return [list(line.strip()) for line in in_str]
 
+
 def set_corners(new_matrix):
     coords = 0, len(new_matrix)-1
     for r, c in product(coords, coords):
