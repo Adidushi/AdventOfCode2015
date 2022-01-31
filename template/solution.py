@@ -1,13 +1,15 @@
 def q1():
     with open('day \input.txt', 'r') as f:
         input = f.read().splitlines()
-    
+
+
 def q2():
     with open('day \input.txt', 'r') as f:
         input = f.read().splitlines()
 
+
 if __name__ == '__main__':
-    from time import perf_counter as  pc
+    from time import perf_counter as pc
     st = pc()
     print(f'Part 1: {q1()}')
     pt1 = pc()
